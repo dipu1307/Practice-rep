@@ -1,0 +1,334 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  
+}
+a {
+  text-decoration: none;
+}
+
+.full-wraper {
+  width: 100%;
+  clear: both;
+}
+.wraper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  width: 150px;
+}
+.logo img {
+  width: 100px;
+  padding: 30px 0;
+  float: left;
+}
+.menu {
+  float: left;
+  width: 800px;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.menu a {
+  color: brown;
+  padding: 15px;
+  font-size: x-large;
+}
+.reg{
+  width: 300px;
+  float: right;
+  text-align: right;
+  margin-top: 50px;
+}
+.reg a{
+  color: burlywood;
+  padding: 20px;
+  font-size: x-large;
+}
+/* =====banner style =====*/
+.bg-img {
+  background-image: url(../images/background3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  border: 5px solid white;
+  margin: 15px;
+  
+}
+.banner-text {
+  text-align: center;
+  
+}
+.banner-text h1 {
+  font-size: 40px;
+  color: greenyellow;
+  padding-bottom: 40px;
+}
+.banner-text p {
+  background: rgba(194, 15, 15, 0.267);
+  margin-top: 50px;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 50px;
+}
+/*=======about=====*/
+.about{
+  font-size: 100px;
+}
+.about-img{
+  float: left;
+  width: 50%;
+  
+  
+}
+.about-img img{
+  width: 100%;
+  
+  
+}
+.about-right{
+  float: left;
+  width: 50%;
+  position: relative;
+  
+}
+.about-right p{
+  width: 100%;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 20px;
+  }
+  .about-right a{
+    position: absolute;
+    
+    left: 40px;
+    float: left;
+    line-height: 15px;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+
+/* =======service item =====*/
+.service-head{
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  color: darkorange;
+  
+}
+.service-item{
+  width: 300px;
+  float: left;
+  text-align: justify;
+  border: 6px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.service-item h1{
+  font-size: 40px;
+  
+}
+.service-item p{
+  padding: 10px;
+  font-size: 16px;
+  text-align: justify;
+}
+.service-item a{
+  padding: 10px;
+  font-weight: bolder;
+}
+
+/*======signup desgin======*/
+.main-div{
+  background-image: url(../images/background5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  padding: 100px 0 ;
+}
+.table{
+  margin: 0 auto;
+  color: white;
+  
+} 
+.head-table{
+  text-align: center;
+  font-size: 100px;
+  color: whitesmoke;
+}
+.table tr td{
+  padding: 15px 0;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+.table tr td input{
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid gray;
+  margin: 0 5px;
+  
+}
+.table tr td button{
+  height: 40px;
+  width: 80px;
+  background: transparent;
+  border: none;
+  border: 2px dotted;
+  font-weight: 900;
+  color: azure;
+  transition: 4s;
+}
+.table tr td button:hover{
+  background:rgba(255, 81, 0, 0.685);
+  color: chocolate;
+}
+/*--- login information---*/
+.main-div-login{
+  background-image: url(../images/background3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+  
+}
+.login-table{
+  margin: 0 auto;
+  color: brown;
+}
+.login-table tr td{
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Oswald', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+padding: 20px 0;
+}
+.login-table tr td input{
+  height: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px dashed gold;
+  margin: 0 20px;
+
+}
+.login-table tr td button{
+  height: 40px;
+  width: 100px;
+  background: transparent;
+  border: 5px solid blueviolet;
+  font-size: 20px;
+  font-weight: 600;
+  color: fuchsia;
+  transition: 5s;
+
+}
+.login-table tr td button:hover{
+  background-color: crimson;
+  color: darkgreen;
+
+}
+/* -----Position ------*/
+.position-main{
+  width: 1000px;
+  height: 800px;
+  background-color: aqua;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+.one{
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  float: left;
+  padding: 10px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.two{
+  width: 200px;
+  height: 200px;
+  background-color: chartreuse;
+  float: left;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.three{
+  width: 200px;
+  height: 200px;
+  background-color: darkgoldenrod;
+  float: left;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.four{
+  width: 200px;
+  height: 200px;
+  background-color: darkgreen;
+  float: left;
+  padding: 10px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.flag{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  float: left;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.flag-color{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+/*------after and before tag uses*/
+.banner-bg{
+  background: url(../images/background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+  padding: 250px 10px;
+  position: relative;
+}
+.banner-bg .af-be{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  content: '';
+}
+.af-be p{
+  color: bisque;
+  text-align: center;
+  padding: 100px;
+  line-height: 26px;
+  font-size: xx-large;
+}
